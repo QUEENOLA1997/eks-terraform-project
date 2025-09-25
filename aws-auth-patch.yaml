@@ -1,0 +1,5 @@
+mapUsers: |
+  - userarn: arn:aws:iam::924795351576:user/eks-terraform-user
+    username: eks-terraform-user
+    groups:
+      - system:masters
